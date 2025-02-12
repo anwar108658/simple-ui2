@@ -1,4 +1,4 @@
-import {LocationOn } from "@mui/icons-material";
+import {LocationOn, LockClock, Phone } from "@mui/icons-material";
 import Particle from "../components/particel/Particale";
 
 const Contact = () => {
@@ -17,8 +17,8 @@ const Contact = () => {
           </div>
           <div className="flex flex-col items-center gap-2 p-4 w-full">
             <div className="flex items-center gap-2">
-              <LocationOn sx={{color:"#15A9D6"}} fontSize="medium"/>
-              <h3 className="text-[1.3rem] font-bold text-[#097588]">Location</h3>
+              <Phone sx={{color:"#15A9D6"}} fontSize="medium"/>
+              <h3 className="text-[1.3rem] font-bold text-[#097588]">Phone</h3>
             </div>
             <p className="text-gray-700 text-[.9rem]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, fugit?
@@ -26,8 +26,8 @@ const Contact = () => {
           </div>
           <div className="flex flex-col items-center gap-2 p-4 w-full">
             <div className="flex items-center gap-2">
-              <LocationOn sx={{color:"#15A9D6"}} fontSize="medium"/>
-              <h3 className="text-[1.3rem] font-bold text-[#097588]">Location</h3>
+              <LockClock sx={{color:"#15A9D6"}} fontSize="medium"/>
+              <h3 className="text-[1.3rem] font-bold text-[#097588]">Hourse</h3>
             </div>
             <p className="text-gray-700 text-[.9rem]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, fugit?
