@@ -1,7 +1,7 @@
 import Image from "../assets/Modern-computer-on-transparent-background-PNG-removebg-preview.png";
 const HeroSection = () => {
     return (
-      <div className="container mx-auto w-full md:h-[80vh] flex justify-between flex-col md:flex-row-reverse items-center p-3">
+      <div className="container mx-auto w-full md:h-[90vh] flex justify-between flex-col md:flex-row-reverse items-center p-3">
         <div className="flex-1 flex justify-center items-center">
             <img className="w-1/1.5" src={Image} alt="" />
         </div>
