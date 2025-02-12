@@ -66,7 +66,7 @@ const Navbar = () => {
                 </ul>
             </div>
             {/* Login Page */}
-<div className={`fixed top-0 left-0 w-full h-screen bg-black/50 backdrop-blur-sm flex items-center justify-center transition-all duration-500 ${isLoginOpen ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}`}>
+<div className={`fixed top-0 left-0 w-full h-screen bg-black/50 z-40 backdrop-blur-sm flex items-center justify-center transition-all duration-500 ${isLoginOpen ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"}`}>
     <div className="bg-white p-6 rounded-lg shadow-lg w-[90%] max-w-sm text-center transform transition-all duration-300">
         <h1 className="text-3xl font-bold text-[#097588]">Login</h1>
         <p className="text-gray-600 text-sm mt-1">Welcome back! Please enter your details.</p>
