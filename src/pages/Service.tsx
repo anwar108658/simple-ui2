@@ -2,10 +2,10 @@ import { DataArray, MobileFriendly, Web } from "@mui/icons-material"
 import logo from "../assets/Logo - Dark Theme.png"
 const Service = () => {
   return (
-    <div className="container mx-auto flex flex-col gap-9">
+    <div className="container mx-auto flex flex-col p-3 gap-9">
         <h1 className="text-[#097588] text-3xl font-bold text-center">Our Service</h1>
         <div className="w-full min-h-[90vh] flex flex-col">
-          <div className="w-full mx-auto flex justify-center rounded-2xl flex-1 bg-[100%] bg-no-repeat max-w-[1000px]" style={{backgroundImage:"linear-gradient(to bottom right, rgba(9, 117, 136, 0.8), rgba(2, 17, 17, 0.4)),url('https://png.pngtree.com/thumb_back/fh260/background/20211217/pngtree-green-technology-background-vector-material-image_922624.jpg')"}}>
+          <div className="w-full mx-auto flex justify-center rounded-2xl flex-1 bg-[100%] bg-cover bg-no-repeat" style={{backgroundImage:"linear-gradient(to bottom right, rgba(9, 117, 136, 0.8), rgba(2, 17, 17, 0.4)),url('https://png.pngtree.com/thumb_back/fh260/background/20211217/pngtree-green-technology-background-vector-material-image_922624.jpg')"}}>
             <img className="w-50 h-40 my-10" src={logo} alt="" />
           </div>
           <div className="flex-1 flex flex-wrap justify-center gap-6 items-center">

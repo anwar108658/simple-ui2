@@ -1,8 +1,10 @@
 import bg from "../assets/4.jpg";
+import logo from "../assets/Logo - Dark Theme.png";
+
 const About = () => {
   return (
     <div
-      className="w-full min-h-screen py-10 bg-no-repeat bg-cover bg-fixed bg-center"
+      className="w-full min-h-screen flex items-center py-10 bg-no-repeat bg-cover bg-fixed bg-center p-3"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url(${bg})`,
       }}
@@ -22,8 +24,8 @@ const About = () => {
           erat in blandit lacinia, odio turpis scelerisque ligula, nec tempus
           justo turpis id justo.
         </p>
-        <div className="max-w-[600px] flex flex-row justify-center items-center mx-auto bg-transparent backdrop-blur-sm border-2 rounded-tl-[5rem] rounded-br-[5rem] p-10 md:flex-row mt-10">
-          <div className="display grid grid-cols-2 gap-4">
+        <div className="max-w-[600px] flex flex-row justify-center items-center mx-auto bg-transparent backdrop-blur-sm border-2 border-[#15A9D6] rounded-tl-[5rem] rounded-br-[5rem] p-10 md:flex-row mt-10">
+          <div className="display grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <img
                 className=" w-30  rounded-lg mt-[-15px]"
@@ -54,7 +56,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex-1">
-
+              <img src={logo} alt="logo" className="" />
           </div>
         </div>
       </div>

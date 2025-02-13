@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center px-4 py-3">
                 {/* Logo */}
                 <div>
-                    <img className="w-16 md:w-20" src={logo} alt="logo" />
+                    <img className="w-16 md:w-20 animate-pulse" src={logo} alt="logo" />
                 </div>
 
                 {/* Desktop Menu */}
@@ -27,7 +27,7 @@ const Navbar = () => {
                     {navLinks.map((link, index) => (
                         <Link 
                             key={index} 
-                            className="px-3 py-1 font-semibold rounded-4xl hover:bg-gradient-to-b hover:from-green-200 hover:to-gray-200 transition-all duration-500" 
+                            className="px-3 py-1 xl:text-[1.2rem] font-semibold rounded-4xl hover:bg-gradient-to-b hover:from-green-200 hover:to-gray-200 transition-all duration-500" 
                             to={link.path}
                         >
                             {link.title}

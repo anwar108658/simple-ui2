@@ -3,9 +3,9 @@ import Particle from "../components/particel/Particale";
 
 const Contact = () => {
   return (
-    <div className="container  min-h-screen  mx-auto p-4 pt-20"> 
-      <div className="flex relative max-w-[900px] mx-auto">
-        <div className="absolute flex bg-white flex-col justify-center items-center gap-3  max-w-[230px] rounded-2xl shadow-2xl left-[-120px] top-[33px] z-11">
+    <div className="container min-h-screen mx-auto sm:pl-30 md:pl-25 p-4 pt-20"> 
+      <div className="flex flex-col gap-3 sm:gap-0 sm:flex-row relative max-w-[1000px] mx-auto">
+        <div className="sm:absolute flex bg-white sm:flex-col flex-wrap sm:flex-nowrap justify-center items-center gap-3  sm:max-w-[230px] rounded-2xl shadow-2xl left-[-120px] top-[33px] z-11">
           <div className="flex flex-col items-center gap-2 p-4 w-full">
             <div className="flex items-center gap-2">
               <LocationOn sx={{color:"#15A9D6"}} fontSize="medium"/>
@@ -34,16 +34,16 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="relative  flex-1 z-10 max-w-[250px] bg-[100%] overflow-hidden rounded-tl-3xl bg-no-repeat rounded-bl-3xl shadow-lg p-4"
+        <div className="hidden sm:block relative z-10 bg-cover flex-1 lg:max-w-[280px] xl:max-w-[300px] bg-[100%] overflow-hidden rounded-tl-3xl bg-no-repeat rounded-bl-3xl shadow-lg p-4"
         style={{backgroundImage: "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://i.pinimg.com/474x/5d/ac/e6/5dace6c69096336dc8f030a6cc35993e.jpg')"}}
         >
         <Particle />
         </div>
-          <div className="border-1 border-teal-900 rounded-tr-3xl rounded-br-3xl flex-1 px-6 py-12 w-full ">
+          <div className="border-1 border-teal-900 sm:rounded-tr-3xl sm:rounded-br-3xl flex-1 px-6 py-12 w-full ">
             <h2 className="text-2xl md:text-3xl font-bold text-center text-[#097588] mb-4">
               Contact Us
             </h2>
-            <form className="flex flex-col gap-4">
+            <form className="flex flex-col gap-4 ">
               <input
                 type="text"
                 placeholder="Your Name"

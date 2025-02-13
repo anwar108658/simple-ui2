@@ -5,7 +5,7 @@ const HeroSection = () => {
         <div className="flex-1 flex justify-center items-center">
             <img className="w-1/1.5" src={Image} alt="" />
         </div>
-        <div className="flex-1 flex flex-col justify-center items-start gap-1 md:gap-8">
+        <div className="flex-1 flex flex-col justify-center items-start gap-1 md:gap-8 lg:gap:10 xl:gap-20">
             <div className="flex flex-col gap-1 md:gap-3">
               <h1 className="text-3xl md:text-4xl font-bold text-[#097588]">Modern Computer</h1>
               <p className="text-[#097588] text-[1.1rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
